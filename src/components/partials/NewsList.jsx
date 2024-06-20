@@ -19,7 +19,7 @@ function NewsList({ sliceData }) {
   };
 
   return (
-    <main className="grid sm:grid-cols-3 grid-cols-1 gap-4">
+    <main className="grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4">
       {sliceData.map((data, index) => (
         <div
           key={index}

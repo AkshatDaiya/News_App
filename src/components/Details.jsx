@@ -15,7 +15,7 @@ function Details() {
 
   return (
     <section
-      className="bg-cover bg-center"
+      className="bg-cover bg-center h-screen"
       style={{ backgroundImage: `url(${singleData.urlToImage})` }}
     >
       <div className="mx-6 md:mx-28 h-full flex flex-col justify-center bg-black bg-opacity-50 relative">

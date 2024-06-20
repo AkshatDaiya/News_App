@@ -58,7 +58,7 @@ function News() {
           setSearchingFor={setSearchingFor}
         />
       </header>
-      <div className="p-3 w-fit text-lg">
+      <div className="p-3 w-fit text-lg mt-16">
         <select
           value={sortBy}
           onChange={(e) => {

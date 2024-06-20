@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Navbar({ searchingFor, setSearchingFor }) {
   return (
-    <nav className="flex items-center justify-between h-14 px-10 bg-[#6FDCE3]">
+    <nav className="flex items-center justify-between h-14 sm:px-10 px-0 bg-[#6FDCE3] fixed top-0 z-50 w-full">
       <Link to={"/"}>
         <h2 className="text-2xl font-bold">News Center</h2>
       </Link>
@@ -14,7 +14,7 @@ function Navbar({ searchingFor, setSearchingFor }) {
           <input
             type="text"
             name="Search"
-            className="p-[6px] outline-0 rounded-md"
+            className="p-[6px] outline-0 rounded-md sm:w-auto w-32"
             id="search"
             placeholder="Search here"
             value={searchingFor}
